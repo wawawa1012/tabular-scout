@@ -1,0 +1,16 @@
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+
+# 数据csv（可选，如果你不想把test_data.csv上传github就写上 *.csv）
+# *.csv
+
+# IDE
+.vscode/
+*.swp
