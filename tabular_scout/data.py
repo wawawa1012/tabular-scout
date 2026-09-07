@@ -5,6 +5,3 @@ def load_and_split(filepath: str, target_col: str):
     y=df[target_col]
     X=df.drop(columns=target_col) 
     return X,y
-
-X,y=load_and_split("test_data.csv","target")
-print(X.shape,y.shape)

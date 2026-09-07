@@ -1,16 +1,19 @@
-# python缓存
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# 虚拟环境
+# Environments
 .venv/
 venv/
+ENV/
 
-# 数据csv（可选，如果你不想把test_data.csv上传github就写上 *.csv）
-# *.csv
-
-# IDE
+# IDE & OS
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
 *.swp
+
+# Generated Reports & Temp outputs (保留一份作为示例即可，运行产物建议忽略)
+outputs/
